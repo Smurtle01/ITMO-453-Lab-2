@@ -1,6 +1,6 @@
 ---
 - hosts: webservers
-become: true 
+  become: true 
   roles:
     - common
     - security
